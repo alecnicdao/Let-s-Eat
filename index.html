@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Let's Eat</title>
+	<link rel="stylesheet" href="css/main.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+
+  </head>
+  <body>
+	<div class="wallpaper"></div>
+	<section class="hero is-primary is-fullheight">
+		<!-- Hero head: will stick at the top -->
+		<div class="hero-head">
+		  <nav class="navbar">
+			<div class="container">
+			  <div class="navbar-brand">
+				<a class="navbar-item">
+				  <img src="images/logo1.png" alt="Logo">
+				</a>
+				<span class="navbar-burger burger" data-target="navbarMenuHeroA">
+				  <span></span>
+				  <span></span>
+				  <span></span>
+				</span>
+
+			  </div>
+			  <div id="navbarMenuHeroA" class="navbar-menu">
+				<div class="navbar-menu">
+					<a href="index.html" class="navbar-item">Home</a>
+                    <a href="howTos.html" class="navbar-item">How-To</a>
+                    <a href="authors.html" class="navbar-item">Team</a>
+                    <a href="blog.html" class="navbar-item">Blog</a>
+                    <a href="about.html" class="navbar-item">About</a>
+                    <a href="contact.html" class="navbar-item">Contact</a>
+				</div>
+
+				<div class="level-item field search-field">
+					<div class="control has-icons-right">
+						<input class="input is-info" type="text" placeholder="Search Let's Eat">
+						<span class="icon is-right">
+							<i class="fas fa-search"></i>
+						</span>
+					</div>
+				</div>
+
+			  </div>
+			</div>
+		  </nav>
+		</div>
+	  
+		<!-- Hero content: will be in the middle -->
+		<div class="hero-body">
+			<div class="side">
+				<figure class="image is-rounded" id="picture">
+					<div class="picture-shadow"></div>
+					<img src="images/logo1.png">
+				</figure>
+			</div>
+			<div class="container about">
+				<div class="container">
+					<h1 class="title is-2">Hello, Welcome to Let's Eat!</h1>
+					<p class="subtitle is-5" id="job"></p>
+				</div>
+				<hr class="hr">
+				<a href="about.html" class="button is-warning is-inverted is-rounded">Learn More</a>
+			</div>
+		</div>
+
+			<div class="tile is-ancestor">
+				<div class="tile is-vertical is-8">
+					<div class="tile">
+						<div class="tile is-parent is-vertical">
+						<article class="tile is-child notification is-info">
+							<p class="title">Upcoming News</p>
+							<p class="subtitle">What's going on with Let's Eat:</p>
+							<p>
+								Let's Eat has no current news at the moment.
+							</p>
+						</article>
+
+						<article class="tile is-child notification is-info">
+							<p class="title">We're Here for You</p>
+							<p class="subtitle">COVID-19:</p>
+							<p>As always, but especially now during COVID-19, you can turn to us as far as your next meal, food shopping tips,
+							recipes, specifically how to make our famous dishes.
+							<a href="howTos.html" class="button is-primary is-inverted is-rounded">More Information</a> 
+							</p>
+						</article>
+						</div>
+
+
+						<div class="tile is-parent">
+						<article class="tile is-child notification is-info">
+							<p class="title">Founder</p>
+							<p class="subtitle">Below is the founder of Let's Eat:</p>
+							<figure class="image is-rounded" id="picture">
+								<div class="picture-shadow"></div>
+								<a href="authors.html"><img src="images/Alec1x.jpg" alt="Picture of Alastair Nicdao" class="image is-rounded" width="320px"
+									height="320px" srcset="images/Alec1x.jpg 1x, images/Alec2x.jpg 2x, 
+									images/Alec3x.jpg 3x" id="pictureImage"></a>
+							</figure>
+							<p>
+								This is Alastair Nicdao founder of Let's Eat. Not a professional chef, but a lover for all types of foods.
+								<a href="authors.html" class="button is-primary is-inverted is-rounded">Check out our team</a>
+							</p>
+						</article>
+						</div>
+					</div>
+
+					<div class="tile is-parent is-vertical">
+						<article class="tile is-child notification is-info">
+							<p class="title">Dishes of the week</p>
+							<p class="subtitle">Below are our top dishes this week 8/3-8/7:</p>
+							<div class="content">
+								<a href="howTos.html"> <img src="images/macNcheese.jpg" alt="Click for more Information" width="300px" > </a>
+								<a href="howTos.html"> <img src="images/mashedPotatoes.jpg" alt="Click for more Information" width="300px"> </a>
+								<a href="howTos.html"> <img src="images/friedChicken.jpg" alt="Click for more Information" width="300px"> </a>
+								<a href="howTos.html"> <img src="images/steak.jpg" alt="Click for more Information" width="300px"> </a>
+								<a href="howTos.html"> <img src="images/eggs.jpg" alt="Click for more Information" width="300px"> </a>
+								<a href="howTos.html"> <img src="images/phillySandwich.png" alt="Click for more Information" width="300px"> </a>
+
+								<p>
+									From our famous Mac and Cheese to our famous Philly Cheese sandwich. Let's Eat provides you with the top dishes of the week.
+									<a href="howTos.html" class="button is-primary is-inverted is-rounded">Dishes</a>
+								</p>
+								
+							</div>
+						</article>
+					</div>
+					</div>
+					
+					<div class="tile is-parent">
+						<article class="tile is-child notification is-info">
+							<div class="content">
+							<p class="title">Upcoming Events</p>
+							<p class="subtitle">What to look forward to:</p>
+							<figure>
+								<div class="content">
+								<img src="images/covid.png" alt="Picture of How to Prevent COVID-19">
+								<p>
+									Due to COVID-19 all of our events are postponed until further notice. If you or anyone you know might have
+									symptoms of COVID-19 contact your doctor immediately. 
+									<a href="https://www.cdc.gov/coronavirus/2019-ncov/index.html" target="_blank">More Information</a> 
+								</p>
+								</div>
+							</figure>
+						</article>
+					</div>
+				</div>
+			</div>
+	  
+		<!-- Hero footer: will stick at the bottom -->
+		<footer class="footer">
+			<div class="columns">
+				<div class="column is-one-fifth index">
+					<p class="subtitle is-3">Let's Eat</p>
+					<p><a href="index.html">Home</a></p>
+					<p><a href="howTos.html">How-To</a></p>
+					<p><a href="authors.html">Team</a></p>
+					<p><a href="blog.html">Blog</a></p>
+					<p><a href="about.html">About</a></p>
+					<p><a href="contact.html">Contact</a></p>
+				</div>
+
+				<div class="column is-one-fifth index">
+					<p class="subtitle is-3">Contact Us</p>
+					<p><a href="">497 Evergreen Rd. Los Angeles, CA 95673</a></p>
+					<p><a href="">548-456-1930</a></p>
+					<p><a href="">Letseat@gmail.com</a></p>
+				</div>
+
+				<div class="column is-one-fifth index">
+					<p class="subtitle is-3">Customer Service</p>
+					<p><a href="">Recipes</a></p>
+					<p><a href="">Our Team</a></p>
+					<p><a href="">Careers</a></p>
+					<p><a href="">FAQ</a></p>
+					
+				</div>
+
+				<div class="column is-one-fifth index">
+					<p class="subtitle is-3">Information</p>
+					<p><a href="">Privacy Policy</a></p>
+					<p><a href="">Terms & Conditions</a></p>
+					<p><a href="">Press Enquiries</a></p>
+				</div>
+
+				<div>
+					<p class="subtitle is-4"></p>
+					<div class="field has-addons news-field">
+						<div class="control has-icons-left">
+							<input class="input is-info" type="email" placeholder="Subscribe with email">
+							<span class="icon is-left">
+								<i class="fas fa-envelope"></i>
+							</span>
+						</div>
+						<div class="control">
+							<a class="button is-link">Sign Up</a>
+						</div>
+					</div>
+
+					<div class="column social">
+						<p class="subtitle is-4">Follow our Social Media</p>
+						<div class="">
+							<a href="" class="icon is-medium social-icon">
+								<i class="fab fa-instagram"></i>
+							</a>
+							<a href="" class="icon is-medium social-icon">
+								<i class="fab fa-twitter"></i>
+							</a>
+							<a href="" class="icon is-medium social-icon">
+								<i class="fab fa-pinterest-p"></i>
+							</a>
+							<a href="" class="icon is-medium social-icon">
+								<i class="fab fa-facebook"></i>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+    <div class="hero is-small end-banner">
+        <div class="hero-body level">
+            <div class="level-left">
+                <a class="level-item to-upper">Terms of Use</a>
+                <a class="level-item to-upper">Privacy Policy</a>
+                <p class="is-bold">&copy; Copyright 2020 Let's Eat</p>
+            </div>
+        </div>
+    </div>
+	  </section>
+  </body>
+</html>

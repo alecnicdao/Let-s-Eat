@@ -1,0 +1,85 @@
+@charset "utf-8";
+
+// Import a Google Font & fontawesome icons
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
+@import url('https://use.fontawesome.com/releases/v5.8.1/js/all.css');
+
+
+// Set your brand colors
+$peach: #FF6F61;
+$light-blue: #61F1FF;
+$light-grey: #CDCDCD;
+$green: rgb(45, 151, 63);
+
+// Update Bulma's global variables
+$primary: $peach;
+$info: $light-grey;
+$family-sans-serif: "Nunito", sans-serif;
+$link: $light-blue;
+$link-hover: $light-grey;
+$text: black;
+$footer-background-color: $peach;
+
+// Update some of Bulma's component variables
+
+@import "../bulma-0.8.0/bulma-0.8.0/bulma.sass";
+
+// --CSS changes--
+// General Styles 
+h2 {
+    color: $green;
+    text-align: center;
+    font-weight: bolder;
+    padding-top: 3em;
+}
+h3 {
+    color: $peach;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 3em;
+}
+
+h4 {
+    color: $peach;
+    text-align: center;
+}
+.social-icon {
+    border: solid 4px $light-blue;
+    border-radius: 5px;
+    font-size: 1.2em;
+    margin: 0.4em 0.5em;
+}
+
+// Other Styles
+
+/* Specific Styles -FROM LANDING PAGE- */
+.wallpaper {
+    display: block; 
+    height: 100%;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+.wallpaper {
+    background-image: url("../images/background.jpg");
+    background-position: center;
+    background-size: cover;
+    opacity: 0.2;
+    position: fixed;
+}
+
+// -FOOTER
+.footer {
+    padding-bottom: 2em;
+}
+
+.end-banner {
+    background-color: $light-blue;
+}
+
+.end-banner a, .end-banner p {
+    margin: 0 21em;
+    color: white;
+    text-align: center;
+}
